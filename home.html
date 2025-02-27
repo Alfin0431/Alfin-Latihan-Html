@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - Kedai Kopi</title>
+    <title>Website Untuk Kedai Kopi "WaroenKKopi"</title>
     <style>
         body {
             margin: 0;
@@ -19,7 +19,7 @@
         }
         nav {
             position: absolute;
-            top: 20px;
+            top: 5px;
             width: 100%;
             display: flex;
             justify-content: center;
@@ -28,33 +28,39 @@
             margin: 0 15px;
             text-decoration: none;
             color: white;
-            font-size: 20px;
+            font-size: 15px;
             font-weight: bold;
-            background: rgba(0, 0, 0, 0.5);
             padding: 10px 15px;
-            border-radius: 5px;
-        }
-        nav a:hover {
-            background: rgba(255, 255, 255, 0.3);
         }
         .logo {
             position: absolute;
             top: 10px;
             left: 20px;
-            font-size: 40px;
+            font-size: 25px;
             font-weight: bold;
         }
         .logo .waroenk {
             color: white;
         }
         .logo .kopi {
-            color: brown;
+            color: rgb(110, 54, 54);
+        }
+        .content {
+            max-width: 600px;
+            text-align: justify;
+            margin-left: 600px; 
+        }
+        .content h1 {
+            text-align: center;
+        }
+        .content p {
+            text-align: justify;
         }
     </style>
 </head>
 <body>
     <div class="logo">
-        <span class="waroenk">Waroenk</span><span class="kopi">Kopi</span>
+        <span class="waroenk">WaroenK</span><span class="kopi">Kopi</span>
     </div>
     <nav>
         <a href="home.html">Home</a>
@@ -62,7 +68,14 @@
         <a href="menu.html">Menu</a>
         <a href="info.html">Info</a>
     </nav>
-    <h1>Selamat Datang di Kedai Kopi</h1>
-    <p>Tempat terbaik untuk menikmati secangkir kopi.</p>
+    <div class="content">
+        <h1>Welcome To WaroenKKopi</h1>
+        <p>
+            We offer a wide variety of coffee from around the world, each with a unique and rich flavor that delights the palate. 
+            Crafted with passion and dedication, every cup is prepared with precision to bring out the best aroma and taste. 
+            Our commitment to quality ensures that each sip delivers warmth, comfort, and an unforgettable experience. 
+            Enjoy your coffee and savor the moment!
+        </p>
+    </div>
 </body>
 </html>
